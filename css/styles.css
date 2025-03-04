@@ -112,7 +112,7 @@ button{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.third-section-list{
+.third-section-list li{
     background-color: #FFFFFF;
 }
 .third-section-name{
