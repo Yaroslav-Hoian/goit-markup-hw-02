@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -18,13 +18,13 @@ button{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 .logo-style {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .navigation-style {
     font-weight: 500;
@@ -38,7 +38,7 @@ button{
 }
 .navigation-style .navigation-link:hover,
 .navigation-style .navigation-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 /* Company contacts */
@@ -47,6 +47,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: #434455;
 }
 .contacts-link {
@@ -54,7 +55,7 @@ button{
 }
 .contacts-style .contacts-link:hover,
 .contacts-style .contacts-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 /* 1 Section */
@@ -64,17 +65,23 @@ button{
 .first-section-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 .first-section-button-style{
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+}
+.first-section-button-style:hover,
+.first-section-button-style:focus {
+    background-color: #404BBF;
 }
 
 /* 2 Section */
@@ -99,9 +106,14 @@ button{
 .third-section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
+}
+.third-section-list{
+    background-color: #FFFFFF;
 }
 .third-section-name{
     font-weight: 500;
@@ -121,8 +133,10 @@ button{
 .fourth-section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .fourth-section-name{
@@ -147,9 +161,12 @@ button{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-style-footer{
     color: #f4f4fd;
 }
 .footer-info{
